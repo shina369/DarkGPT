@@ -3,13 +3,9 @@ from utils.dehashed import print_debug
 from darkgpt import DarkGPT
 import os
 from dotenv import load_dotenv
-import sys
-import os
-sys.path.append(os.path.dirname(__file__))
-
 load_dotenv()
 
-banner = r"""
+banner = """
 ________       __        _______   __   ___       _______    _______  ___________  
 |"      "\     /""\      /"      \ |/"| /  ")     /" _   "|  |   __ "\("     _   ") 
 (.  ___  :)   /    \    |:        |(: |/   /     (: ( \___)  (. |__) :))__/  \\__/  
